@@ -1,0 +1,9 @@
+scores =np.array([85, 90, 78, 92, 88, 76, 95, 82, 89, 91, 87, 84])
+print("Shape:", scores.shape)
+print("Total elements:", scores.size)
+highest_score = np.max(scores)
+print("Highest score:", highest_score)
+lowest_score = np.min(scores)
+print("Lowest score:", lowest_score)
+score_range = highest_score - lowest_score
+print("Score range:", score_range)
